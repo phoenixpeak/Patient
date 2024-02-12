@@ -1,0 +1,103 @@
+﻿#headerTitle{
+    font-stretch: ultra-condensed;
+    font-size: 3em;
+    color:white;
+    text-decoration: none;
+}
+
+#mainHeader{
+    background-color: rgba(202,202,203,1);
+    color:white;
+    margin-bottom: 50px;
+}
+
+#mainHeader .glyphicon{
+    font-size: 1.5em;
+    color:white;
+}
+
+.header-block-1, .header-block-2, .header-block-3{
+    height: 80px;
+}
+
+.header-block-1 {
+    background-color: rgba(56,164,235,1);
+}
+
+.header-block-2{
+    background-color: rgba(166,41,47,1);
+}
+
+.header-block-3{
+    background-color: rgba(241,106,16,1);
+}    
+
+
+#mainFooter{
+    margin-top:50px;
+}
+
+.modal-curtain {
+    height:100%;
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;       
+}
+
+.wait-holder-curtain {
+    opacity: 1;
+    z-index: 200;
+}
+
+.wait-holder {
+    width: 100%;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    background-color: rgba(235, 235, 235, 0.2);
+}
+
+.wait-holder .progress-bar{
+    width: 100%;    
+}
+
+.text-error{
+    padding-left: 15px;    
+}
+
+.text-footer{
+    color: rgba(155,155,155,1)
+}
+
+.link-orange{
+    color: rgba(241,106,16,1)
+}
+
+.link-red{
+    color: rgba(166,41,47,1)
+}
+
+.link-blue{
+    color: rgba(56,164,235,1)
+}
+
+.link-grey{
+    color: rgba(155,155,155,1);
+    text-decoration: underline;
+}
+
+.text-footer-bottom{
+    text-align:center;
+}
+
+@media all and (max-width: 405px) {
+    #headerTitle{
+        font-size: 2em;
+        font-size: 10vw;
+    }
+}
